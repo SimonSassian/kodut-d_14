@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T9zj2l5Cyj4Cv5XtPiqJgz6ZZc5P7W1xpviy6Uv2Cz2F8oZ5bIn58Xj3KM5O5f5b" crossorigin="anonymous">
+    <title>Kalkulaator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulaator</h1>
+        <form method="post" action="ulesanne3.php">
+            <div class="form-group">
+                <label for="a">Trapetsi alus (a):</label>
+                <input type="number" step="0.1" class="form-control" id="a" name="a" required>
+            </div>
+            <div class="form-group">
+                <label for="b">Trapetsi alus (b):</label>
+                <input type="number" step="0.1" class="form-control" id="b" name="b" required>
+            </div>
+            <div class="form-group">
+                <label for="d1">Trapetsi diagonaal (d1):</label>
+                <input type="number" step="0.1" class="form-control" id="d1" name="d1" required>
+            </div>
+            <div class="form-group">
+                <label for="d2">Trapetsi diagonaal (d2):</label>
+                <input type="number" step="0.1" class="form-control" id="d2" name="d2" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Arvuta</button>
+        </form>
+    </div>
+</body>
+</html>

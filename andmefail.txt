@@ -1,0 +1,4 @@
+Telefon: 555-1234
+Aadress: 123 Main Street
+Nimi: Simon Sassian
+ programeerimine
